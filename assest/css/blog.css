@@ -1,0 +1,397 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+     
+}
+/* header section start */
+ 
+header{
+    
+    height: 70px;
+     background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+     
+    background-size: cover;
+    
+    background-position: center;
+}
+ 
+header .img-fluid{
+    
+    height: 70px;
+    width: 190px;
+    float: left;
+    margin-left: 50px;
+   transition: all 0.6s; 
+}
+header .offcanvas-body{
+
+    padding: 0;
+}
+header .offcanvas-body li{
+
+    list-style: none;
+    height: auto;
+    line-height: 37px;
+    margin-right: 30px;
+    transition: all 0.4s;
+}
+header .offcanvas-body li a{
+
+    text-decoration: none;
+    color: black;
+}
+header .offcanvas-body li a i{
+
+
+}
+header .offcanvas-body ul li:hover{
+
+  border-bottom: 2px solid #8cc93e;
+
+}
+header .offcanvas-body ul li .sub_menu{
+
+    padding: 0;
+    
+
+}
+header .offcanvas-body ul li .sub_menu li{
+
+    padding: 0 20px;
+    width: 100%;
+}
+header .offcanvas-body ul li a{
+
+    display: block;
+}
+header .offcanvas-body ul li .sub_menu li:hover{
+
+    background-color:gray ;
+}
+header nav{
+    
+    float: right;
+}
+header nav ul{
+    
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    
+    list-style: none;
+    height: 60px;
+    line-height: 70px;
+    padding: 0px 10px;
+    transition: all 0.3s;
+    text-align: center;
+    
+}
+header nav ul li:last-child{
+    margin-right: 30px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+   font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+header nav ul li .sub_menu div{
+    margin-top: -40px;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    height:40px;
+    }
+header nav ul li:hover{
+    border-bottom: 2px solid #8cc93e;
+}
+
+header nav ul .menu:hover{
+    position: relative;
+}
+header nav ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+}
+header nav ul li .sub_menu{
+    background-color: white;
+    display: none;
+    padding-left: 0px;
+   width: 200px;
+   box-shadow: 0px 0px 10px gray;
+   border-radius: 10px;
+   padding: 10px 0px;
+
+}
+header nav ul li .sub_menu li{
+    display: block;
+    height: 35px;
+    line-height: 40px;
+    padding: 0px 20px;
+    transition: all 0.3s;
+    text-align: left;
+    
+}
+header nav ul li .sub_menu li a{
+    color: black;
+}
+header nav ul li .sub_menu li:hover{
+    border-bottom: none;
+    background-color: #DDDDDD;
+}
+header nav ul li .sub_menu li:last-child{
+    margin-right: 0px;
+}
+header .toggler-btn{
+
+    color: white;
+    float: right;
+    line-height: 70px;
+    display: none;
+    margin-right: 40px;
+}
+.header-scroll{
+
+    box-shadow: 0px 2px 10px gray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    
+    transition: all 0.6s; 
+}
+.header-scroll ul li a{
+
+    color: black;
+
+}
+.header-scroll .img-fluid{
+
+    width: 150px;
+}
+/* header section end */
+
+/* card section start */
+
+.cards{
+
+    margin-top: 100px;
+}
+.cards .card{
+
+    width: 370px; 
+     height:550px
+}
+/* card section end */
+
+/* vedio section start */
+ 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 360px; /* Height of the video */
+    overflow: hidden;
+}
+
+/* Video should take up the whole container */
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay content */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the content */
+    color: white; /* Change the text color */
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1; /* Ensures the content is on top of the video */
+    width: 100%;
+}
+.overlay-content p{
+
+    border-right: 1px solid white;
+     height:180px;
+     line-height: 200px;
+     border-top: 1px solid white;
+     width: 500px;
+     margin-left: -50px;
+     margin-bottom: -100px;
+}
+/* vedio section end */
+
+/* footer section start */
+
+footer{
+
+    background: black;
+    color: white;
+    padding: 30px 100px;
+     
+  }
+  footer ul li{
+
+    list-style: none;
+    font-size: 15px;
+  }
+  /* footer section end */
+
+/* for extra small screen */
+@media (min-width: 375px) and (max-width: 576px){
+
+    
+
+    header nav{
+
+        display: none;
+    }
+    header .toggler-btn{
+
+        
+        display: block;
+    }
+    .cards{
+
+        margin-top: 100px;
+    }
+    /* card section end */
+    
+    /* vedio section start */
+     
+    
+    
+    /* Overlay content */
+    .overlay-content {
+         
+        display: none;
+    }
+     
+
+
+  }
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 768px) {
+ 
+     
+
+    header nav{
+
+        display: none;
+    }
+    header .toggler-btn{
+
+        
+        display: block;
+    }
+    .cards{
+
+        margin: 100px;
+        
+    }
+    /* card section end */
+    
+    /* vedio section start */
+     
+    
+    
+    /* Overlay content */
+    .overlay-content {
+         
+        display: none;
+    }
+    
+     
+     
+
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 992px) {
+     
+    header nav{
+
+        display: none;
+    }
+    header .toggler-btn{
+
+        
+        display: block;
+    }
+    .cards{
+
+        margin: 100px 200px;
+        
+    }
+    /* card section end */
+    
+    /* vedio section start */
+     
+    
+    
+    /* Overlay content */
+    .overlay-content {
+         
+        display: none;
+    }
+     
+     
+    
+     
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+     
+    .about{
+
+        margin: 50px 0px;
+         
+        
+    }
+    .cards{
+
+        margin: 100px 10px;
+        
+    }
+    .cards .card{
+
+        width: 300px;
+        height: 550px;
+    }
+    /* card section end */
+    
+    /* vedio section start */
+     
+    
+    
+    /* Overlay content */
+    .overlay-content {
+         
+        display: none;
+    }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) and (max-width: 1415px) {
+
+    
+    
+    
+}
