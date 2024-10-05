@@ -198,7 +198,14 @@ header .toggler-btn{
     
      
 }
+.content ul{
 
+    list-style: none; 
+    width:500px; 
+    margin-left:100px
+    
+     
+}
 #img-1 img{
 
     margin-left: 150px;
@@ -243,29 +250,27 @@ footer{
     .content{
 
         font-size: 15px;
-        margin: 30px 10px;
+        margin: 30px 0px;
         line-height: 25px;
         font-size: 14px;
         
          
     }
+    .content ul{
+    
+        list-style: none; 
+        width:350px; 
+        margin-left:0px
+        
+         
+    }
     #img-1 img{
     
-        margin-left: 20px;
-         width: 250px;
+        margin-left: 50px;
+        width:250px;
        
     }
-    .content ul h6 , li {
-
-         font-size: 10px;
-         margin-left: -120px;
-         width: 300px;
-    }
-    .content table{
-
-        width: 500px;
-        margin-left: 10px;
-    }
+     
      
 
 
@@ -273,10 +278,7 @@ footer{
 /* Small Devices */
 @media (min-width: 576px) and (max-width: 768px) {
  
-     *{
-
-        overflow: hidden;
-     }
+     
 
     header nav{
 
@@ -290,30 +292,27 @@ footer{
     .content{
 
         font-size: 15px;
-        margin: 30px 10px;
+        margin: 30px 0px;
         line-height: 25px;
         font-size: 14px;
         
          
     }
+    .content ul{
+    
+        list-style: none; 
+        width:450px; 
+        margin:0px 50px
+        
+         
+    }
     #img-1 img{
     
-        margin-left: 20px;
-        font-size: 250px;
+        margin:0px 100px;
+        width:250px;
        
     }
-    .content ul h6 , li {
 
-         font-size: 10px;
-         margin-left: -100px;
-         width: 400px;
-    }
-    .content table{
-
-        width: 500px;
-        margin-left: 10px;
-    }
-     
      
 
 }
@@ -339,19 +338,19 @@ footer{
         
          
     }
-    .content ul h6 , li {
-
-        margin-left: -100px;
+    .content ul{
+    
+        list-style: none; 
+        width:450px; 
+        margin:0px 100px
+        
+         
     }
-    .content table{
 
-        width: 500px;
-        margin-left: 10px;
-    }
-     
     #img-1 img{
     
-        margin-left: 10px;
+        margin:0px 150px;
+        width:300px;
        
     }
      
@@ -364,11 +363,26 @@ footer{
     .content{
 
         font-size: 15px;
-        margin: 30px 100px;
+        margin: 30px 50px;
         line-height: 25px;
         font-size: 14px;
         
          
+    }
+    .content ul{
+    
+        list-style: none; 
+        width:450px; 
+        margin:0px 200px
+        
+         
+    }
+
+    #img-1 img{
+    
+        margin:0px 250px;
+        width:300px;
+       
     }
 }
 

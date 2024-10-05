@@ -198,7 +198,14 @@ header .toggler-btn{
     
      
 }
+.content ul{
 
+     width:500px; 
+     margin-left:100px;
+
+    
+     
+} 
 .content table{
 
     width: 500px;
@@ -242,12 +249,7 @@ footer{
 
   @media (min-width: 375px) and (max-width: 576px){
 
-     *{
-
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-     }
+     
     header nav{
 
         display: none;
@@ -266,21 +268,24 @@ footer{
         
          
     }
+    .content ul{
+
+        width:350px; 
+        margin-left:0px;
+   
+       
+        
+   } 
     #img-1 img{
     
-        margin-left: 0px;
-        width: 200px;
+        margin-left: 60px;
+        width: 220px;
        
     }
-    .content ul h6 , li {
-
-         font-size: 10px;
-         margin-left: 0px;
-         width: 300px;
-    }
+     
     .content table{
 
-        width: 200px;
+        width: 250px;
         margin-left: 0px;
     }
      
@@ -316,22 +321,28 @@ footer{
         
          
     }
+    .content ul{
+
+        width:480px; 
+        margin-left:0px;
+   
+       
+        
+   } 
     #img-1 img{
     
-        margin-left: 20px;
+        margin: 0px 120px;
+        width: 250px;
        
     }
-    .content ul h6 , li {
-
-         font-size: 10px;
-         margin-left: -100px;
-         width: 500px;
-    }
+     
     .content table{
 
         width: 500px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
+     
+
      
      
 
@@ -352,27 +363,33 @@ footer{
     .content{
 
         font-size: 15px;
-        margin: 30px 0px;
+        margin: 30px 10px;
         line-height: 25px;
         font-size: 14px;
         
          
     }
-    .content ul h6 , li {
+    .content ul{
 
-        margin-left: -100px;
+        width:480px; 
+        margin-left:0px 100px;
+   
+       
+        
+   } 
+    #img-1 img{
+    
+        margin: 0px 200px;
+        width: 250px;
+       
     }
+     
     .content table{
 
         width: 500px;
-        margin-left: 10px;
+        margin: 0px 100px;
     }
      
-    #img-1 img{
-    
-        margin-left: 10px;
-       
-    }
      
 }
 
